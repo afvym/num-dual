@@ -4,3 +4,8 @@ build-backend = "maturin"
 
 [tool.maturin]
 features = ["python"]
+
+[dependency-groups]
+dev = [
+    "maturin>=1.13.3",
+]
